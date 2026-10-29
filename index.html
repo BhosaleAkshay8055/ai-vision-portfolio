@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Akshay Bhosale — AI Vision, computer vision, industrial safety, image and video processing, and full-stack development." />
+  <meta name="theme-color" content="#090d14" />
+  <title>Akshay Bhosale | AI Vision & Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Akshay Bhosale home"><span class="brand-mark">A<span>.</span></span><span>AKSHAY <small>BHOSALE</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#work">Projects</a><a href="#expertise">Expertise</a><a href="#about">About</a><a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> COMPUTER VISION · AI SYSTEMS · FULL-STACK</div>
+        <h1>Making the real world<br> <span class="gradient-text">machine-readable.</span></h1>
+        <p class="hero-lede">I build practical AI vision systems for industrial safety, object detection, video analytics, and automation — from camera input to actionable results.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Discuss a project <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> Python / YOLO / OpenCV</span><span><i class="meta-line"></i> React / Node.js</span></div>
+      </div>
+      <div class="vision-panel" aria-label="Illustrative computer vision monitoring panel">
+        <div class="panel-top"><span><i class="status-dot"></i> VISION MONITOR / DEMO</span><span class="mono">CAM_01 · LIVE UI CONCEPT</span></div>
+        <div class="vision-scene">
+          <div class="scene-grid"></div>
+          <div class="scene-floor"></div>
+          <div class="scan-line"></div>
+          <div class="person-shape person-one"><div class="person-head"></div><div class="person-body"></div><div class="person-leg leg-left"></div><div class="person-leg leg-right"></div></div>
+          <div class="person-shape person-two"><div class="person-head"></div><div class="person-body"></div><div class="person-leg leg-left"></div><div class="person-leg leg-right"></div></div>
+          <div class="detect-box detect-person"><span>PERSON · 98.2%</span></div>
+          <div class="detect-box detect-vehicle"><span>VEHICLE · 96.7%</span></div>
+          <div class="vehicle-shape"><span></span><i></i><b></b></div>
+          <div class="zone-label">SAFETY ZONE A</div>
+          <div class="corner corner-tl"></div><div class="corner corner-br"></div>
+        </div>
+        <div class="panel-stats">
+          <div><span class="stat-label">OBJECTS TRACKED</span><strong>03</strong></div>
+          <div><span class="stat-label">ZONE STATUS</span><strong class="safe"><i class="status-dot"></i> MONITORING</strong></div>
+          <div><span class="stat-label">PROCESSING</span><strong>REAL-TIME*</strong></div>
+        </div>
+        <p class="panel-note">*Illustrative interface concept — not a live camera feed.</p>
+      </div>
+      <div class="hero-index mono">01 / BUILT FOR THE REAL WORLD</div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="section-shell strip-inner"><span>MY TOOLKIT</span><div>PYTHON</div><div>YOLO</div><div>OPENCV</div><div>FASTAPI</div><div>REACT</div><div>NODE.JS</div><div>POSTGRESQL</div></div>
+    </section>
+
+    <section class="section-shell section-pad" id="work">
+      <div class="section-heading">
+        <div><div class="eyebrow">SELECTED WORK / 01</div><h2>AI that does<br><span class="muted-heading">something useful.</span></h2></div>
+        <p>Computer vision concepts and project experience focused on detecting events, improving visibility, and connecting AI output to real workflows.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual safety-visual">
+            <div class="visual-grid"></div><div class="visual-tag">VISION SYSTEM / 01</div>
+            <div class="worker worker-a"><i></i><b></b><span></span></div><div class="worker worker-b"><i></i><b></b><span></span></div>
+            <div class="bbox bbox-a"><span>PERSON 0.98</span></div><div class="bbox bbox-b"><span>PERSON 0.94</span></div>
+            <div class="warning-zone">RESTRICTED ZONE</div><div class="visual-crosshair">+</div>
+          </div>
+          <div class="project-content"><div class="project-number">01 <span>INDUSTRIAL AI</span></div><h3>Industrial Safety Monitoring</h3><p>Computer vision for monitoring people, vehicles, and safety zones, with event alerts that can support industrial workflows and PLC integration.</p><div class="tag-list"><span>YOLO</span><span>OpenCV</span><span>Python</span><span>PLC workflows</span></div><button class="text-link project-details" data-project="safety">View project approach <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual road-visual">
+            <div class="road-lane"></div><div class="road-dash"></div><div class="car car-one"><i></i></div><div class="car car-two"><i></i></div><div class="car-box"><span>VEHICLE · ID 12</span></div><div class="speed-readout"><small>EST. SPEED</small><strong>07.2 <em>km/h</em></strong></div>
+            <div class="visual-tag">TRACKING / 02</div>
+          </div>
+          <div class="project-content"><div class="project-number">02 <span>TRACKING & CALIBRATION</span></div><h3>Vehicle Speed Analytics</h3><p>Vehicle detection and tracking with camera calibration and homography-based speed estimation for controlled environments.</p><div class="tag-list"><span>YOLO</span><span>Tracking</span><span>Homography</span></div><button class="text-link project-details" data-project="speed">View project approach <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual parking-visual">
+            <div class="visual-tag">OCCUPANCY / 03</div><div class="parking-grid">
+              <div class="slot occupied"><i></i><span>P-01</span></div><div class="slot free"><span>P-02</span><b>AVAILABLE</b></div><div class="slot occupied"><i></i><span>P-03</span></div><div class="slot free"><span>P-04</span><b>AVAILABLE</b></div>
+            </div><div class="parking-summary"><span>OCCUPIED <b>02</b></span><span>FREE <b>02</b></span></div>
+          </div>
+          <div class="project-content"><div class="project-number">03 <span>SMART MONITORING</span></div><h3>AI Parking Monitoring</h3><p>Analyze camera footage to identify vehicles and parking-space occupancy, then surface useful status information in a dashboard.</p><div class="tag-list"><span>Computer Vision</span><span>Python</span><span>React</span></div><button class="text-link project-details" data-project="parking">View project approach <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual video-visual">
+            <div class="visual-tag">MEDIA PIPELINE / 04</div><div class="video-frame"><div class="play-button">▶</div><div class="frame-box"></div><div class="frame-label">FRAME 00482</div></div><div class="timeline"><span></span><i></i><i></i><i></i><i></i><b>00:38</b></div>
+            <div class="pipeline-nodes"><span>INPUT</span><b>→</b><span>DETECT</span><b>→</b><span>OUTPUT</span></div>
+          </div>
+          <div class="project-content"><div class="project-number">04 <span>IMAGE & VIDEO</span></div><h3>Image / Video Processing</h3><p>Build pipelines that process image and video inputs, run detection, and return annotated results for review or downstream applications.</p><div class="tag-list"><span>OpenCV</span><span>FastAPI</span><span>REST API</span></div><button class="text-link project-details" data-project="media">View project approach <span>↗</span></button></div>
+        </article>
+      </div>
+      <p class="project-disclaimer">Project summaries describe areas of work and implementation approaches. Replace illustrative visuals and example metrics with approved screenshots and verified results before presenting them as completed deployments.</p>
+    </section>
+
+    <section class="expertise-section" id="expertise">
+      <div class="section-shell section-pad">
+        <div class="section-heading">
+          <div><div class="eyebrow">CAPABILITIES / 02</div><h2>From camera<br>to <span class="gradient-text">decision.</span></h2></div>
+          <p>I work across the pipeline — collecting inputs, building vision logic, exposing APIs, and delivering usable interfaces.</p>
+        </div>
+        <div class="capability-list">
+          <div class="capability"><span class="cap-index">01</span><div><h3>Computer Vision</h3><p>Object detection, person and vehicle detection, tracking, frame processing, camera calibration, and region-of-interest logic.</p></div><div class="cap-tools">YOLO · OpenCV · Python</div><span class="cap-arrow">↗</span></div>
+          <div class="capability"><span class="cap-index">02</span><div><h3>Industrial Safety & Automation</h3><p>Safety-zone monitoring, event-driven alerts, CCTV/RTSP inputs, and integration planning for PLC-connected systems.</p></div><div class="cap-tools">RTSP · Events · PLC integration</div><span class="cap-arrow">↗</span></div>
+          <div class="capability"><span class="cap-index">03</span><div><h3>Image & Video Pipelines</h3><p>Build APIs for processing media, handling asynchronous tasks, and returning results that frontend applications can consume.</p></div><div class="cap-tools">FastAPI · Node.js · REST</div><span class="cap-arrow">↗</span></div>
+          <div class="capability"><span class="cap-index">04</span><div><h3>Full-Stack Applications</h3><p>Responsive dashboards, backend services, database integration, authentication flows, and deployment on Linux servers.</p></div><div class="cap-tools">React · Express · PostgreSQL</div><span class="cap-arrow">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell section-pad about-section" id="about">
+      <div class="about-mark"><span>AB</span><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="about-cross">+</div></div>
+      <div class="about-copy"><div class="eyebrow">A LITTLE ABOUT ME / 03</div><h2>Engineering mindset.<br><span class="muted-heading">Practical outcomes.</span></h2><p>I'm Akshay Bhosale, a developer working across frontend, backend, and AI-driven applications. My experience spans React interfaces, Node.js APIs, Python services, databases, and computer vision workflows.</p><p>I enjoy connecting the pieces: turning camera feeds and image data into clear signals, usable dashboards, and systems that help teams make better decisions.</p><div class="about-facts"><div><strong>Frontend</strong><span>React · JavaScript · CSS</span></div><div><strong>Backend</strong><span>Node.js · Express · Python</span></div><div><strong>Data</strong><span>PostgreSQL · APIs</span></div></div></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-inner">
+        <div><div class="eyebrow">HAVE A USE CASE? / 04</div><h2>Let's build something<br><span class="gradient-text">that sees further.</span></h2><p>Need help with an industrial safety system, camera analytics, image/video processing, or an AI-powered web application? Let's talk about the problem and the best way to solve it.</p></div>
+        <div class="contact-card"><span class="contact-card-label">OPEN TO</span><h3>AI Vision Projects<br>& Development</h3><a class="contact-email" id="email-link" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com <span>↗</span></a><div class="contact-links"><a id="linkedin-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a id="github-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></div><button class="button button-primary copy-email" type="button">Copy email address</button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="section-shell footer-inner"><a class="brand" href="#home"><span class="brand-mark">A<span>.</span></span><span>AKSHAY <small>BHOSALE</small></span></a><span>AI Vision · Computer Vision · Full-Stack Development</span><span class="mono">© <span id="year"></span> AKSHAY BHOSALE</span></div></footer>
+
+  <dialog class="project-dialog" id="project-dialog"><button class="dialog-close" aria-label="Close project details">×</button><div class="eyebrow" id="dialog-kicker">PROJECT DETAILS</div><h2 id="dialog-title">Project title</h2><p id="dialog-description"></p><h3>Possible implementation flow</h3><ol id="dialog-steps"></ol></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
